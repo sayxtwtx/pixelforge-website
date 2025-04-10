@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
+        /* Reset and Base Styles */
         :root {
             --primary: #00f7ff;
             --secondary: #a100f7;
@@ -881,21 +882,21 @@
                     <h3>Upcoming Events</h3>
                     <div class="timeline">
                         <div class="timeline-item">
-                            <div class="timeline-date">June 15, 2025</div>
+                            <div class="timeline-date">June 15, 2024</div>
                             <div class="timeline-content">
                                 <h4>Game Developers Conference</h4>
                                 <p>Our lead designer will be presenting "Pushing Boundaries in Open-World Design" at GDC 2024.</p>
                             </div>
                         </div>
                         <div class="timeline-item">
-                            <div class="timeline-date">August 3, 2025</div>
+                            <div class="timeline-date">August 3, 2024</div>
                             <div class="timeline-content">
                                 <h4>Starborn Legacy Update</h4>
                                 <p>Major content update adding multiplayer features and new star systems.</p>
                             </div>
                         </div>
                         <div class="timeline-item">
-                            <div class="timeline-date">October 2025</div>
+                            <div class="timeline-date">October 2024</div>
                             <div class="timeline-content">
                                 <h4>Neon Horizon Beta</h4>
                                 <p>Closed beta testing begins for selected community members.</p>
@@ -913,24 +914,18 @@
             <h2 class="section-title">Contact Us</h2>
             <div class="contact-container">
                 <div class="contact-form">
-                    <form action="https://formsubmit.co/pixforge123@gmail.com" method="POST">
-                        <!-- FormSubmit Configuration -->
-                        <input type="hidden" name="_subject" value="New message from PixelForge">
-                        <input type="hidden" name="_autoresponse" value="Thank you for contacting PixelForge Studios! We'll get back to you soon.">
-                        <input type="hidden" name="_next" value="https://sayxtwtx.github.io/pixelforge-website/thank-you.html">
-                        <input type="hidden" name="_captcha" value="false">
-                        
+                    <form id="contactForm">
                         <div class="form-group">
                             <label for="name">Name</label>
-                            <input type="text" id="name" name="name" class="form-control" required>
+                            <input type="text" id="name" class="form-control" required>
                         </div>
                         <div class="form-group">
                             <label for="email">Email</label>
-                            <input type="email" id="email" name="email" class="form-control" required>
+                            <input type="email" id="email" class="form-control" required>
                         </div>
                         <div class="form-group">
                             <label for="message">Message</label>
-                            <textarea id="message" name="message" class="form-control" required></textarea>
+                            <textarea id="message" class="form-control" required></textarea>
                         </div>
                         <button type="submit" class="btn">Send Message</button>
                     </form>
@@ -938,9 +933,9 @@
                 <div class="contact-info">
                     <h3>Get In Touch</h3>
                     <p>Have questions about our games, want to join our team, or interested in partnership opportunities? We'd love to hear from you!</p>
-                    <p><i class="fas fa-map-marker-alt" style="color: var(--primary); margin-right: 10px;"></i> 123 Street, Almaty, KZ</p>
+                    <p><i class="fas fa-map-marker-alt" style="color: var(--primary); margin-right: 10px;"></i> 123 Game Dev Lane, San Francisco, CA</p>
                     <p><i class="fas fa-envelope" style="color: var(--primary); margin-right: 10px;"></i> contact@pixelforge.com</p>
-                    <p><i class="fas fa-phone" style="color: var(--primary); margin-right: 10px;"></i> +7 (777) 123 4567</p>
+                    <p><i class="fas fa-phone" style="color: var(--primary); margin-right: 10px;"></i> (555) 123-4567</p>
                     <div class="social-links">
                         <a href="#" class="social-link"><i class="fab fa-discord"></i></a>
                         <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
@@ -966,7 +961,7 @@
                 <li><a href="#">Privacy Policy</a></li>
                 <li><a href="#">Terms of Service</a></li>
             </ul>
-            <p class="copyright">© 2025 PixelForge Studios. All rights reserved.</p>
+            <p class="copyright">© 2023 PixelForge Studios. All rights reserved.</p>
         </div>
     </footer>
 
